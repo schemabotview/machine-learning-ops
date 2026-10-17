@@ -69,6 +69,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `tests` | checks table → code card → 3-leaf container | §5 |
 |  | `failure` | failure table → 2×2 container → code card | §6 |
 |  | `automation` | levels table → 2×2 container → table | §7 |
+| `data-contracts` | `schema` | contract table → 2×2 container → manifest card | §1 |
+|  | `quality` | computed rule table → 3×2 flow container | §2 |
+|  | `labels` | computed outcome table → 2×2 container → manifest card | §3 |
+|  | `times` | computed scan-clock table → 3-leaf container → table | §4 |
+|  | `asof` | computed four-join table → 3-leaf container → SQL card | §5 |
+|  | `parity` | equal-axis served-vs-recomputed scatter (seeded) → 2×2 container | §6 |
+|  | `fallback` | policy table → 2×2 container → code card | §7 |
+|  | `evolution` | responsibility table → change table → 3-leaf container | §8 |
 
 ## Invariants — do not break
 
