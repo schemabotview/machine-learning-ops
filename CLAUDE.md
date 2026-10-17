@@ -147,6 +147,12 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `incident` | INC-0610 timeline → 2×2 container | §6 |
 |  | `repair` | recovery table → 3-leaf container → replay card | §7 |
 |  | `postmortem` | factor table → action table → 3-leaf container | §8 |
+| `lifecycle` | `system-map` | 3 nested TB system containers → contract table | §1 |
+|  | `manifests` | identity-chain table → verify card → 3-leaf container | §2 |
+|  | `walkthrough` | v14 end-to-end table → 3-leaf exits → 3-leaf container | §3 |
+|  | `policies` | two-system policy table → 3-leaf container → 2-leaf container | §4 |
+|  | `risks` | evidence table → open-risk table → 3-leaf container | §5 |
+|  | `proportion` | capability table → 2×2 companion container | §6 |
 
 ## Invariants — do not break
 
