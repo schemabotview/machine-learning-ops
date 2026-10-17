@@ -1,6 +1,7 @@
 import { requirements } from './requirements'
 import { dataContracts } from './data-contracts'
 import { runs } from './runs'
+import { pipelines } from './pipelines'
 import type { Course, Section } from './types'
 
 // Course registry, in syllabus order. Courses are added here as each is authored.
@@ -8,6 +9,7 @@ export const COURSES: Record<string, Course> = {
   [requirements.id]: requirements,
   [dataContracts.id]: dataContracts,
   [runs.id]: runs,
+  [pipelines.id]: pipelines,
 }
 
 export type { Course, Section }

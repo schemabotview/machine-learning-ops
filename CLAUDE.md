@@ -84,6 +84,13 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `budget` | plot (seeded search, best so far) → computed budget table | §5 |
 |  | `resume` | computed preemption trace → 2×2 container → code card | §6 |
 |  | `retries` | retry table → computed rerun table → 3-leaf container | §7 |
+| `pipelines` | `dag` | 2 nested TB stage containers → component code card | §1 |
+|  | `branches` | 3×2 gate container → run table | §2 |
+|  | `triggers` | 3-leaf trigger container → computed run-key table → schedule card | §3 |
+|  | `caching` | computed cache-key table → 2×2 container | §4 |
+|  | `idempotency` | computed duplicate-write trace → 2×2 container → MERGE card | §5 |
+|  | `backfill` | computed backfill table → 2×2 container → command card | §6 |
+|  | `portability` | local-vs-remote table → 2×2 container | §7 |
 
 ## Invariants — do not break
 
