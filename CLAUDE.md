@@ -107,6 +107,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `delayed` | plot (seeded label maturity) → claims table | §6 |
 |  | `rollback` | dependency table → 2×2 container | §7 |
 |  | `audit` | release record card → retirement table | §8 |
+| `serving` | `batch` | computed partition table → 3-leaf container → manifest card | §1 |
+|  | `publication` | 3-leaf identity container → storage table → table → publish card | §2 |
+|  | `partial` | computed partial-failure trace → contract table → 3-leaf container | §3 |
+|  | `startup` | pod timeline → 2-leaf probe container → code card | §4 |
+|  | `latency` | 2×3 request-path container → computed budget table | §5 |
+|  | `overload` | plot (W = S/(1−ρ) vs load) → 2×2 container | §6 |
+|  | `timeouts` | batch-vs-request table → request trace → 3-leaf container | §7 |
+|  | `serving-cache` | cache-key table → response card → 3-leaf container | §8 |
 
 ## Invariants — do not break
 

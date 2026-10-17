@@ -4,6 +4,7 @@ import { runs } from './runs'
 import { pipelines } from './pipelines'
 import { releaseEvidence } from './release-evidence'
 import { delivery } from './delivery'
+import { serving } from './serving'
 import type { Course, Section } from './types'
 
 // Course registry, in syllabus order. Courses are added here as each is authored.
@@ -14,6 +15,7 @@ export const COURSES: Record<string, Course> = {
   [pipelines.id]: pipelines,
   [releaseEvidence.id]: releaseEvidence,
   [delivery.id]: delivery,
+  [serving.id]: serving,
 }
 
 export type { Course, Section }
