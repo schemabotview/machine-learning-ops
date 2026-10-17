@@ -131,6 +131,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `promotion` | 3×2 path container → monthly table | §6 |
 |  | `races` | alias race trace → 3-leaf container → CAS card | §7 |
 |  | `retire` | decision table → 2×2 container | §8 |
+| `governance` | `access` | identity × permission table → 2×2 container | §1 |
+|  | `secrets` | 3×2 network container → secrets table | §2 |
+|  | `minimise` | inventory table → 3-leaf container → retention card | §3 |
+|  | `deletion` | deletion-lineage trace → 3-leaf container → lineage SQL card | §4 |
+|  | `supply` | artefact-control table → CI card → 2×2 container | §5 |
+|  | `threats` | threat table → 2×2 container → gateway config card | §6 |
+|  | `review` | risk-record table → computed access-review table → 2-leaf container | §7 |
+|  | `obligations` | obligation table → 3-leaf container → 2×2 container | §8 |
 
 ## Invariants — do not break
 
