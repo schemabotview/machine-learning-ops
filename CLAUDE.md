@@ -115,6 +115,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `overload` | plot (W = S/(1−ρ) vs load) → 2×2 container | §6 |
 |  | `timeouts` | batch-vs-request table → request trace → 3-leaf container | §7 |
 |  | `serving-cache` | cache-key table → response card → 3-leaf container | §8 |
+| `observability` | `slo` | plot (computed error-budget burn) → incident table | §1 |
+|  | `ops-signals` | online signal table → batch signal table → 2-leaf container | §2 |
+|  | `telemetry` | 3-leaf container → prediction-event card → label table | §3 |
+|  | `privacy` | logging table → alert table → 3-leaf container | §4 |
+|  | `change` | change-kind table → 3-leaf reference container → table | §5 |
+|  | `drift` | plot (seeded reference vs corrupted distance) → computed PSI table | §6 |
+|  | `outcomes` | equal-axis reliability plot (seeded) → join table | §7 |
+|  | `triage` | two-alert comparison table → 2×2 container | §8 |
 
 ## Invariants — do not break
 
