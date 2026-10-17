@@ -1,0 +1,15 @@
+{
+  "_comment": "Curated publish titles (YouTube title + thumbnail header) per course, keyed by course id. Search-first: what someone would actually type, never 'Course 4'. One entry per course in src/content/index.ts.",
+  "requirements": "ML System Requirements, SLOs And Engineering Boundaries",
+  "data-contracts": "Data Contracts, Point-In-Time Joins And Feature Stores",
+  "runs": "Reproducible ML Training Runs, Experiment Tracking And Lineage",
+  "pipelines": "ML Pipeline Orchestration, Caching, Retries And Idempotency",
+  "release-evidence": "Model Validation Gates, Model Registry And Inference Artefacts",
+  "delivery": "CI/CD For ML: Canary, Shadow, Blue-Green Deployment And Rollback",
+  "serving": "Batch Scoring Versus Online Model Serving: Latency, Retries And Fallbacks",
+  "observability": "ML Monitoring: SLOs, Data Drift, Concept Drift And Delayed Labels",
+  "retraining": "Feedback Loops, A/B Tests And Controlled Model Retraining",
+  "governance": "MLOps Security, Privacy, Access Control And Governance",
+  "reliability": "ML Capacity Planning, Reliability And Incident Postmortems",
+  "lifecycle": "End-To-End MLOps Lifecycle Design Review"
+}
