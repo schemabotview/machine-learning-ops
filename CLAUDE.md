@@ -62,6 +62,13 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 
 | course | scene id | shape | used by |
 | --- | --- | --- | --- |
+| `requirements` | `objective` | 2 nested TB chain containers → claims table | §1 |
+|  | `modes` | requirements table → 2×3 owner container | §2 |
+|  | `contracts` | plot (latency histogram + p99) → contract table | §3 |
+|  | `interfaces` | 3×2 component container → code card | §4 |
+|  | `tests` | checks table → code card → 3-leaf container | §5 |
+|  | `failure` | failure table → 2×2 container → code card | §6 |
+|  | `automation` | levels table → 2×2 container → table | §7 |
 
 ## Invariants — do not break
 
