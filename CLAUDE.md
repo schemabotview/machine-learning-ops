@@ -99,6 +99,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `aliases` | registry vs runtime timeline → 3-leaf container → code card | §6 |
 |  | `serialisation` | format table → compatibility table → code card | §7 |
 |  | `retained` | retention table → 2×2 rollback container | §8 |
+| `delivery` | `distinctions` | loop table → 2×2 container → 3-leaf container | §1 |
+|  | `build-once` | digest table → 3-leaf container → release card | §2 |
+|  | `environments` | environment table → evidence table → 3-leaf container | §3 |
+|  | `rollout-patterns` | 2×2 pattern container → evidence table → 2-leaf container | §4 |
+|  | `traffic` | computed hash-bucket table → 2-leaf container → guardrail table | §5 |
+|  | `delayed` | plot (seeded label maturity) → claims table | §6 |
+|  | `rollback` | dependency table → 2×2 container | §7 |
+|  | `audit` | release record card → retirement table | §8 |
 
 ## Invariants — do not break
 
