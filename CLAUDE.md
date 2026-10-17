@@ -123,6 +123,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `drift` | plot (seeded reference vs corrupted distance) → computed PSI table | §6 |
 |  | `outcomes` | equal-axis reliability plot (seeded) → join table | §7 |
 |  | `triage` | two-alert comparison table → 2×2 container | §8 |
+| `retraining` | `instrumentation` | 2×2 event container → table → schema card | §1 |
+|  | `experiment` | computed experiment-plan table → 2×2 container | §2 |
+|  | `feedback` | 2×2 loop container → computed label table → 3-leaf container | §3 |
+|  | `update-triggers` | trigger table → 3-leaf container → table | §4 |
+|  | `label-window` | window table → 2-leaf container → code card | §5 |
+|  | `promotion` | 3×2 path container → monthly table | §6 |
+|  | `races` | alias race trace → 3-leaf container → CAS card | §7 |
+|  | `retire` | decision table → 2×2 container | §8 |
 
 ## Invariants — do not break
 
