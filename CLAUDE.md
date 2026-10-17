@@ -77,6 +77,13 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `parity` | equal-axis served-vs-recomputed scatter (seeded) → 2×2 container | §6 |
 |  | `fallback` | policy table → 2×2 container → code card | §7 |
 |  | `evolution` | responsibility table → change table → 3-leaf container | §8 |
+| `runs` | `run-identity` | 3×2 identity container → run manifest card → table | §1 |
+|  | `tracking` | computed-fingerprint run table → 2×2 container → code card | §2 |
+|  | `lineage` | 2×2 lineage container → record card → rerun table → 3-leaf container | §3 |
+|  | `job` | 3×2 job-step container → job spec card | §4 |
+|  | `budget` | plot (seeded search, best so far) → computed budget table | §5 |
+|  | `resume` | computed preemption trace → 2×2 container → code card | §6 |
+|  | `retries` | retry table → computed rerun table → 3-leaf container | §7 |
 
 ## Invariants — do not break
 
