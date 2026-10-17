@@ -8,6 +8,7 @@ import { serving } from './serving'
 import { observability } from './observability'
 import { retraining } from './retraining'
 import { governance } from './governance'
+import { reliability } from './reliability'
 import type { Course, Section } from './types'
 
 // Course registry, in syllabus order. Courses are added here as each is authored.
@@ -22,6 +23,7 @@ export const COURSES: Record<string, Course> = {
   [observability.id]: observability,
   [retraining.id]: retraining,
   [governance.id]: governance,
+  [reliability.id]: reliability,
 }
 
 export type { Course, Section }

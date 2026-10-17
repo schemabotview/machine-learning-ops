@@ -139,6 +139,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `threats` | threat table → 2×2 container → gateway config card | §6 |
 |  | `review` | risk-record table → computed access-review table → 2-leaf container | §7 |
 |  | `obligations` | obligation table → 3-leaf container → 2×2 container | §8 |
+| `reliability` | `capacity` | plot (hourly demand + capacity lines) → computed replica table | §1 |
+|  | `domains` | failure-domain table → surge trace → 3-leaf container | §2 |
+|  | `cost` | computed cost table → 3-leaf container → attribution table | §3 |
+|  | `platforms` | platform table → 2×2 container → 2-leaf container | §4 |
+|  | `restore` | restore-drill table → 2-leaf container → 3-leaf container | §5 |
+|  | `incident` | INC-0610 timeline → 2×2 container | §6 |
+|  | `repair` | recovery table → 3-leaf container → replay card | §7 |
+|  | `postmortem` | factor table → action table → 3-leaf container | §8 |
 
 ## Invariants — do not break
 
