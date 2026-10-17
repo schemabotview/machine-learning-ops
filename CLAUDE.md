@@ -91,6 +91,14 @@ Each course adds a `src/scenes/<courseId>/` bundle; list its scenes here as it l
 |  | `idempotency` | computed duplicate-write trace → 2×2 container → MERGE card | §5 |
 |  | `backfill` | computed backfill table → 2×2 container → command card | §6 |
 |  | `portability` | local-vs-remote table → 2×2 container | §7 |
+| `release-evidence` | `layers` | 3-leaf container → layer table → 2-leaf container | §1 |
+|  | `champion` | plot (paired bootstrap of Δ log loss, seeded) → computed table | §2 |
+|  | `checks` | candidate review table → 2×2 container | §3 |
+|  | `gates` | computed verdict table → 3-leaf container → gate policy card | §4 |
+|  | `bundle` | bundle contents table → signature card | §5 |
+|  | `aliases` | registry vs runtime timeline → 3-leaf container → code card | §6 |
+|  | `serialisation` | format table → compatibility table → code card | §7 |
+|  | `retained` | retention table → 2×2 rollback container | §8 |
 
 ## Invariants — do not break
 
